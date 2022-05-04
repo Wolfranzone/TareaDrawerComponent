@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jordaniapetra"
+    tools:context=".MainActivity6">
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="378dp"
+        android:layout_height="504dp"
+        android:text="Petra (en griego antiguo, Πέτρα, en árabe, البتراء al-Batrā´) es un importante enclave arqueológico en Jordania, y la capital del antiguo reino nabateo, cuyos pobladores la llamaban Raqmu (en árabe nabateo, الرقيم).1​ El nombre de Petra proviene del griego πέτρα que significa piedra.
+
+El asentamiento de Petra se localiza en un valle angosto, al este del valle de la Aravá que se extiende desde el mar Muerto hasta el Golfo de Aqaba. Los restos más célebres de Petra son sin duda sus construcciones labradas en la misma roca del valle (hemispeos), en particular, los edificios conocidos como el Khazneh (‘el Tesoro’) y el Deir (‘el Monasterio’).
+
+Fundada en la antigüedad hacia el final de siglo VIII a. C. por los edomitas, fue ocupada en el siglo VI a. C. por los nabateos que la hicieron prosperar gracias a su situación en la ruta de las caravanas que llevaban el incienso, las especias y otros productos de lujo entre Egipto, Siria, Arabia y el sur del Mediterráneo.
+
+Hacia el siglo VI d. C., el cambio de las rutas comerciales y los terremotos sufridos, condujeron al abandono de la ciudad por sus habitantes. Cayó en el olvido hasta que en 1812 el lugar fue redescubierto para el mundo occidental por el explorador suizo Jean Louis Burckhardt (1784-1817).
+
+Numerosos edificios cuyas fachadas están directamente esculpidas en la roca, forman un conjunto monumental único, que a partir del 6 de diciembre de 1985 está inscrito en la Lista del Patrimonio Mundial de la Unesco. La zona que rodea el lugar es también, desde 1993, parque nacional arqueológico."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/balle"
+        android:layout_width="320dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/ezypt"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

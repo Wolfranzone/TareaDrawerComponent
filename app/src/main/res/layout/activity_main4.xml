@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/machu"
+    tools:context=".MainActivity4">
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="378dp"
+        android:layout_height="504dp"
+         android:text="Está ubicada en la región Cusco (provincia de Urubamba, distrito de Machupicchu) sobre el Valle Sagrado de los Incas, a 80 kilómetros al noroeste de la ciudad de Cusco, ciudad del Perú y por donde fluye el río Urubamba, río que atraviesa la cordillera y origina un cañón con clima de montaña tropical. Según muchos estudiosos su nombre original habría sido Llaqtapata.
+
+Según documentos de mediados del siglo xvi, tenía un carácter privado.1​ Sin embargo, algunas de sus mejores construcciones y el evidente carácter ceremonial de la principal vía de acceso a la llaqta dan cuenta de su origen anterior a Pachacútec y a su presumible utilización como santuario religioso.2​ Ambos usos, el de palacio y el de santuario, no habrían sido incompatibles. Aun cuando se discute su supuesto carácter militar, por lo que los populares calificativos de «fortaleza» o «ciudadela» podrían haber sido superados.3​
+
+Machu Picchu es considerada, al mismo tiempo, una obra maestra de la arquitectura y la ingeniería.4​ Sus peculiares características arquitectónicas y paisajísticas, y el velo de misterio que ha tejido a su alrededor buena parte de la literatura publicada sobre el sitio, lo han convertido en uno de los destinos turísticos más famosos del planeta, así como una de las siete maravillas del mundo.5​
+
+Para 1976, el 30 % de Machu Picchu había sido restaurado, y todavía continúan los trabajos de restauración.[cita requerida]
+
+Machu Picchu fue declarado Santuario Histórico Peruano en 1981 y está en la Lista del Patrimonio de la Humanidad de la Unesco desde 1983, como parte de todo un conjunto cultural y ecológico conocido bajo la denominación Santuario histórico de Machu Picchu. El 7 de julio de 2007 Machu Picchu fue declarada como una de las nuevas siete maravillas del mundo moderno en una ceremonia realizada en Lisboa (Portugal), que contó con la participación de cien millones de votantes en el mundo entero. Machu Picchu fue votada como una de las Nuevas Siete Maravillas del Mundo en una encuesta mundial en Internet."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/balle"
+        android:layout_width="320dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/lamaperu"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

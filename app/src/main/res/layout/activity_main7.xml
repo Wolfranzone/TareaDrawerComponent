@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maravilla"
+    tools:context=".MainActivity7">
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="378dp"
+        android:layout_height="504dp"
+       android:text="El Coliseo o Anfiteatro Flavio (en latín Colosseum, en italiano Colosseo)1​ es un anfiteatro de la época del Imperio romano, construido en el siglo I. Está ubicado en el este del Foro Romano, y fue el más grande de los que se construyeron en el Imperio romano. Conocido originalmente como Anfiteatro Flavio (Amphitheatrum Flavium) pasa a ser llamado Coliseo (Colosseum) porque a su lado había una gran estatua, el Coloso de Nerón,2​ un monumento dedicado al emperador Nerón que posteriormente sufrió transformaciones y llegó a desaparecer.3​
+
+Los materiales utilizados en la construcción de este son bloques de travertino, hormigón, madera, ladrillo, piedra (toba), mármol y estuco. En la antigüedad poseía un aforo para unos 65 000 espectadores, con ochenta filas de gradas.4​5​6​ Los que estaban cerca de la arena eran el Emperador, su familia y los senadores, y a medida que se ascendía se situaban los estratos inferiores de la sociedad. En el Coliseo tenían lugar luchas de gladiadores y espectáculos públicos. Se construyó justo al este del Foro Romano, y las obras empezaron entre 70 d. C. y 72 d. C., bajo el mandato del emperador Vespasiano. El anfiteatro, que era el más grande jamás construido en el Imperio romano, se completó en 80 d. C. por el emperador Tito, y fue modificado durante el reinado de Domiciano.2​ Su inauguración duró 100 días, participando en ella todo el pueblo romano y muriendo en su celebración decenas de gladiadores y fieras que dieron su vida por el placer y el espectáculo del pueblo.2​
+
+El Coliseo se usó durante casi 500 años, celebrándose en él los últimos juegos de la historia en el siglo VI, bastante más tarde de la tradicional fecha de la caída del Imperio romano de Occidente en 476 d. C. Los bizantinos también lo utilizaron durante el siglo VI. Además de las peleas de gladiadores, muchos otros espectáculos públicos tenían lugar aquí, como naumaquias, caza de animales, ejecuciones, recreaciones de famosas batallas y obras de teatro basadas en la mitología clásica. El edificio dejó de emplearse para estos propósitos en la Alta Edad Media. Más tarde, sirvió como refugio, fábrica, sede de una orden religiosa, fortaleza y cantera. De sus ruinas se extrajo abundante material para la construcción de otros edificios, hasta que fue convertido en santuario cristiano, en honor a los cautivos martirizados durante los primeros años del cristianismo. Esta medida contribuyó a detener su expolio y a que se conservara."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/balle"
+        android:layout_width="320dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/mountain"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

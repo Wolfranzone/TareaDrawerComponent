@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mahal"
+    tools:context=".MainActivity5">
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="378dp"
+        android:layout_height="504dp"
+     android:text="El Taj Mahal (hindi: ताज महल Tāj Mahal, urdu: تاج محل Tāŷ Mahal 'Corona de los palacios'; /tɑːʒ mə'hɑl/)1​2​ es un monumento funerario construido entre 1631 y 1654 en la ciudad de Agra, estado de Uttar Pradesh (India), a orillas del río Yamuna, por el emperador musulmán Shah Jahan de la dinastía mogol. El imponente conjunto de edificios se erigió en honor de su esposa favorita, Arjumand Banu Begum —más conocida como Mumtaz Mahal— que murió en el parto de su decimocuarto hijo. Se estima que en su construcción trabajaron unos 20 000 obreros bajo dirección de un conjunto de arquitectos liderados por el arquitecto de la corte, Ustad Ahmad Lahori.3​4​
+
+El Taj Mahal es considerado el más bello ejemplo de palacio, estilo que combina elementos de las arquitecturas islámica,5​ persa,6​ india e incluso turca.7​ Este monumento ha logrado especial notoriedad por el carácter romántico de su inspiración.8​ Aunque el mausoleo cubierto por la cúpula de mármol blanco es la parte más conocida, el Taj Mahal es un conjunto amurallado de edificios que ocupa 17 hectáreas y que también incluye una gran mezquita, una casa de invitados y jardines.
+
+El monumento es un importante destino turístico de la India. En 1983, fue reconocido por la Unesco como Patrimonio de la Humanidad por ser «la joya del arte musulmán en India y una de las obras maestras del patrimonio mundial admiradas universalmente». Descrito por el poeta Rabindranath Tagore como «Una lágrima en la mejilla del tiempo», el Taj Mahal es un símbolo de la rica historia de la India. El mausoleo atrae a entre 7 y 8 millones de visitantes cada año y además en 2007 fue designado una de Las Nuevas Siete Maravillas del Mundo Moderno"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/balle"
+        android:layout_width="320dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/indianyogi"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cristoredentor"
+    tools:context=".MainActivity3">
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="378dp"
+        android:layout_height="504dp"
+         android:text="El Cristo Redentor o Cristo del Corcovado es una estatua art déco de Jesús de Nazaret con los brazos abiertos mostrando a la ciudad de Río de Janeiro, Brasil.
+
+La estatua tiene una altura de 38 metros sobre un pedestal de 8 metros.1​2​ Este monumento fue inaugurado el 12 de octubre de 1931, después de aproximadamente cinco años de construcción. Es la tercera estatua de Jesús de Nazaret más grande del mundo, detrás de la estatua de Cristo Rey de Świebodzin (Polonia), de 36 m, y el Cristo de la Concordia de Cochabamba (Bolivia), de 34.2 m.3​4​ Es reconocida, por una empresa privada, como una de las nuevas siete maravillas del mundo moderno junto a Machu Picchu, la Gran Muralla China, el Coliseo de Roma, el Taj Mahal, Chichén Itzá y Petra.
+
+El Cristo del Corcovado, es uno de los atractivos turísticos más importantes de Brasil y, para los creyentes, un lugar de peregrinación. Al cumplirse los 80 años de su inauguración, en 2011, se celebró una exposición que repasa la historia del monumento y, sobre todo, cómo esta estatua se ha convertido en punto de referencia para los brasileños e inspiración para sus artistas."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/balle"
+        android:layout_width="320dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/brazil"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

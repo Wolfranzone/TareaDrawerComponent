@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/calculadoraFragment"
+            android:icon="@drawable/ic_baseline_calculate_24"
+            android:title="Calculadora" />
+        <item
+            android:id="@+id/sonidoFragment"
+            android:icon="@drawable/ic_baseline_music_note_24"
+            android:title="Sonido" />
+        <item
+            android:id="@+id/sitioWebFragment"
+            android:icon="@drawable/www"
+            android:title="Sitio Web" />
+        <item
+            android:id="@+id/direccioneAppFragment"
+            android:icon="@drawable/ic_baseline_play_circle_filled_24"
+            android:title="Direccione a otro apk" />
+        <item
+            android:id="@+id/maravillasModernasFragment"
+            android:icon="@drawable/montana"
+            android:title="Maravillas Modernas" />
+        <item
+            android:id="@+id/plusFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Plus adicional" />
+    </group>
+</menu>

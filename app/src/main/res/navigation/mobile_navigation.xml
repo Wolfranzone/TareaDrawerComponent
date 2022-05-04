@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tareadrawercomponent.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.tareadrawercomponent.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.tareadrawercomponent.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/calculadoraFragment"
+        android:name="com.example.tareadrawercomponent.CalculadoraFragment"
+        android:label="fragment_calculadora"
+        tools:layout="@layout/fragment_calculadora" />
+    <fragment
+        android:id="@+id/sonidoFragment"
+        android:name="com.example.tareadrawercomponent.SonidoFragment"
+        android:label="fragment_sonido"
+        tools:layout="@layout/fragment_sonido" />
+    <fragment
+        android:id="@+id/sitioWebFragment"
+        android:name="com.example.tareadrawercomponent.SitioWebFragment"
+        android:label="fragment_sitio_web"
+        tools:layout="@layout/fragment_sitio_web" >
+        <action
+            android:id="@+id/action_sitioWebFragment_to_nav_Web"
+            app:destination="@id/nav_Web" />
+    </fragment>
+    <fragment
+        android:id="@+id/direccioneAppFragment"
+        android:name="com.example.tareadrawercomponent.DireccioneAppFragment"
+        android:label="fragment_direccione_app"
+        tools:layout="@layout/fragment_direccione_app" />
+    <fragment
+        android:id="@+id/maravillasModernasFragment"
+        android:name="com.example.tareadrawercomponent.MaravillasModernasFragment"
+        android:label="fragment_maravillas_modernas"
+        tools:layout="@layout/fragment_maravillas_modernas" />
+    <fragment
+        android:id="@+id/plusFragment"
+        android:name="com.example.tareadrawercomponent.PlusFragment"
+        android:label="fragment_plus"
+        tools:layout="@layout/fragment_plus" />
+    <fragment
+        android:id="@+id/nav_Web"
+        android:name="com.example.tareadrawercomponent.nav_Web"
+        android:label="fragment_nav__web"
+        tools:layout="@layout/fragment_nav__web" />
+</navigation>

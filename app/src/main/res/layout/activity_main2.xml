@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chichenitza"
+    tools:context=".MainActivity2">
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="378dp"
+        android:layout_height="504dp"
+        android:text="Chichén Itzá (en maya: Chi' ch'e'en (boca del pozo) its ja' ([de los] brujos del agua))1​ es uno de los principales sitios arqueológicos de la península de Yucatán, en México. Está ubicado en el municipio de Tinum, en el estado de Yucatán. Consistió en una ciudad2​ o un centro ceremonial, que pasó por diversas épocas constructivas e influencias de los distintos pueblos que la ocuparon y que la impulsaron desde su fundación. Vestigio importante y renombrado de la civilización maya, las construcciones principales que ahí perduran corresponden al periodo denominado clásico tardío o posclásico temprano (800-1100 d. C.).
+
+Fue inscrita en la lista del Patrimonio de la Humanidad por la Unesco en 1988.3​
+
+El 7 de julio de 2007, el Templo de Kukulcán, ubicado en Chichén Itzá, fue reconocido como una de las nuevas siete maravillas del mundo moderno, por una iniciativa privada sin el apoyo de la Unesco, pero con el reconocimiento de millones de votantes alrededor del mundo.4​
+
+La arquitectura monumental que ha llegado hasta nuestros días, que es emblemática del yacimiento, tiene una clara influencia tolteca. El Dios que preside el sitio, según la mitología maya, es Kukulkán, representación maya de Quetzalcóatl, dios tomado del panteón de la cultura tolteca."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/balle"
+        android:layout_width="320dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/mexicanmusician"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,150 @@
+package com.example.tareadrawercomponent;
+
+import android.content.Intent;
+import android.os.Bundle;
+
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageButton;
+
+/**
+ * A simple {@link Fragment} subclass.
+ * Use the {@link MaravillasModernasFragment#newInstance} factory method to
+ * create an instance of this fragment.
+ */
+public class MaravillasModernasFragment extends Fragment {
+
+    // TODO: Rename parameter arguments, choose names that match
+    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+    private static final String ARG_PARAM1 = "param1";
+    private static final String ARG_PARAM2 = "param2";
+
+    // TODO: Rename and change types of parameters
+    private String mParam1;
+    private String mParam2;
+
+    public MaravillasModernasFragment() {
+        // Required empty public constructor
+    }
+
+    /**
+     * Use this factory method to create a new instance of
+     * this fragment using the provided parameters.
+     *
+     * @param param1 Parameter 1.
+     * @param param2 Parameter 2.
+     * @return A new instance of fragment MaravillasModernasFragment.
+     */
+    // TODO: Rename and change types and number of parameters
+    public static MaravillasModernasFragment newInstance(String param1, String param2) {
+        MaravillasModernasFragment fragment = new MaravillasModernasFragment();
+        Bundle args = new Bundle();
+        args.putString(ARG_PARAM1, param1);
+        args.putString(ARG_PARAM2, param2);
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
+            mParam1 = getArguments().getString(ARG_PARAM1);
+            mParam2 = getArguments().getString(ARG_PARAM2);
+        }
+    }
+
+    ImageButton chiche;
+      ImageButton  cristo;
+    ImageButton  machus;
+     ImageButton  maha;
+     ImageButton  maharilla;
+     ImageButton  jordan;
+    ImageButton  china;
+
+
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        View view = inflater.inflate(R.layout.fragment_maravillas_modernas, container, false);
+
+
+        chiche = view.findViewById(R.id.chi);
+        chiche.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+        Intent intent=new Intent(getActivity(),MainActivity2.class);
+        startActivity(intent);
+            }
+        });
+        cristo = view.findViewById(R.id.cris);
+        cristo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent=new Intent(getActivity(),MainActivity3.class);
+                startActivity(intent);
+            }
+        });
+        machus = view.findViewById(R.id.machu);
+        machus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent=new Intent(getActivity(),MainActivity4.class);
+                startActivity(intent);
+            }
+        });
+        maha = view.findViewById(R.id.maha);
+        maha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent=new Intent(getActivity(),MainActivity5.class);
+                startActivity(intent);
+            }
+        });
+        maharilla = view.findViewById(R.id.maharilla);
+        maharilla.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent=new Intent(getActivity(),MainActivity6.class);
+                startActivity(intent);
+            }
+        });
+        jordan = view.findViewById(R.id.jordan);
+        jordan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent=new Intent(getActivity(),MainActivity7.class);
+                startActivity(intent);
+            }
+        });
+        china = view.findViewById(R.id.china);
+        china.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent=new Intent(getActivity(),MainActivity8.class);
+                startActivity(intent);
+            }
+        });
+        return view;
+
+
+
+
+
+    }
+
+
+
+}
